@@ -21,18 +21,32 @@ for n_estimators = 200 and max_depth = 5) performed slightly better, with
 accuracy test = 0.91562	and accuracy training = 0.99885.
 
 List of files:
+
 Y_in.csv -	Outcome (gname), 38251 entries, as 1 column of 63 unique names. Each name has at least 150 entries.
+
 Y_out.xlsx - Outcome (gname),  38251 entries, as 63 columns, Each name has at least 150 entries.
+
 final_data.xlsx -	Feature set, 38251 entries and 35 features. Feature list in final_data_list.xlsx
+
 preprocessing.ipynb	-Code and documentation describing preprocessing
+
 data_summary.xlsx	- A count for all columns in original data set (globalterrorismdb_0616dist.xlsx)
+
 final_data_list.xlsx - A list of the final set of 35 features in final_data.xlsx
+
 weaptype recode.xlsx - A list of the codes for the recoding of WeapRecode1 and WeapRecode (found in step #5 of preprocessing.ipynb and rationale.ipynb)
+
 days.jpg - A figure giving the original distribution of days in globalterrorismdb_0616dist.xlsx
+
 months.jpg - A figure giving the original distribution of months in globalterrorismdb_0616dist.xlsx
+
 rationale.ipynb -Code and documentation describing the rationale and some of the descriptive stats for the preprocessing
+
 gradientboosting.ipynb - Code and documentation describing the gradient boosting and the results
+
 randomforest.ipynb - Code and documentation describing the random forest and the results
+
 GB max depth.jpg - Figure giving summarizing the tuning of the Gradient Boosting wrt max_depth
+
 Codebook.pdf - Codebook from http://www.start.umd.edu/gtd/
 
